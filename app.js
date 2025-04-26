@@ -1,9 +1,9 @@
+require('dotenv').config();
+
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const pinoHttp = require("pino-http");
-
-require('dotenv').config();
 
 const logger = require("./utils/logger")("App");
 const usersRouter = require("./routes/users");

@@ -27,3 +27,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# 忽略 Firebase 金鑰
+config/firebase.json
